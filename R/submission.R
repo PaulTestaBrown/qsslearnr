@@ -110,6 +110,7 @@ submission_ui <- shiny::div(
   shiny::tags$ol(
     shiny::tags$li("Enter your name into the text box below.."),
     shiny::tags$li("Click the Download button next to generate a report PDF with a summary of your work. "),
+    shiny::tags$li("Save the file using the format LASTNAME_TutorialNumber (e.g. Testa_00)"),
     shiny::tags$li("Upload this file to the appropriate assignment on"),
     shiny::tags$a(href = 'https://canvas.brown.edu/courses/1087979',
     "Canvas.")),
