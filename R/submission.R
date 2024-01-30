@@ -112,7 +112,7 @@ submission_ui <- shiny::div(
     shiny::tags$li("Click the Download button next to generate a report PDF with a summary of your work."),
     shiny::tags$li("Save the file using the format 'LASTNAME_TutorialNumber.pdf' (e.g. 'Testa_00.pdf')"),
     shiny::tags$li("Upload this file to the appropriate assignment on"),
-    shiny::tags$a(href = 'https://canvas.brown.edu/courses/1087979',
+    shiny::tags$a(href = 'https://canvas.brown.edu/courses/1094972/assignments',
     "Canvas.")),
   shiny::textInput("name", "Your Name"),
   shiny::downloadButton(outputId = "download_pdf", label = "Download PDF"),
