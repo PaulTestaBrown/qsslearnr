@@ -115,8 +115,8 @@ submission_ui <- shiny::div(
     shiny::tags$a(href = 'https://canvas.brown.edu/courses/1094972/assignments',
     "Canvas.")),
   shiny::textInput("name", "Your Name"),
-  shiny::downloadButton(outputId = "download_pdf", label = "Download PDF"),
-  shiny::downloadButton(outputId = "download_html", label = "Download HTML (backup)")
+  # shiny::downloadButton(outputId = "download_pdf", label = "Download PDF"),
+  shiny::downloadButton(outputId = "download_html", label = "Download HTML")
 )
 
 utils::globalVariables(c("input", "session", "download_report"))
