@@ -30,7 +30,7 @@ Congrats on getting through this tutorial! Please upload this PDF to Gradescope.
 Here is a detailed view of your progress
 
 ```{r, echo = FALSE, center = TRUE}
-knitr::kable(params$output[, c("id", "attempted")], "latex")
+knitr::kable(params$output[, c("id", "attempted")])
 ```
 
 \newpage
